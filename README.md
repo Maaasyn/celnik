@@ -42,10 +42,10 @@ const main = async () => {
 .
 └─── content
      └─── hero
-        │   ├── $schema.json
+        ├── hero.json
+        ├── $schema.json
         ├── en
         │   └── hero.json
-        ├── hero.json
         └── pl
             └── hero.json
 
