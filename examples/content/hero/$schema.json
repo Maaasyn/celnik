@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/HeroSchema",
+    "definitions": {
+        "HeroSchema": {
+            "type": "object",
+            "properties": {
+                "$schema": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "year": {
+                    "type": "number"
+                },
+                "description": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "$schema",
+                "title",
+                "year",
+                "description"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

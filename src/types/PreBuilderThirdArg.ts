@@ -1,0 +1,1 @@
+export type PreBuilderThirdArg<L extends string, LO extends string> = L | LO[][number]

@@ -1,0 +1,65 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/MenuSchema",
+    "definitions": {
+        "MenuSchema": {
+            "type": "object",
+            "properties": {
+                "$schema": {
+                    "type": "string"
+                },
+                "home": {
+                    "type": "string",
+                    "minLength": 100,
+                    "maxLength": 1000
+                },
+                "about": {
+                    "type": "string"
+                },
+                "contact": {
+                    "type": "string"
+                },
+                "login": {
+                    "type": "string"
+                },
+                "logout": {
+                    "type": "string"
+                },
+                "register": {
+                    "type": "string"
+                },
+                "dashboard": {
+                    "type": "string"
+                },
+                "profile": {
+                    "type": "string"
+                },
+                "settings": {
+                    "type": "string"
+                },
+                "search": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            },
+            "required": [
+                "$schema",
+                "home",
+                "about",
+                "contact",
+                "login",
+                "logout",
+                "register",
+                "dashboard",
+                "profile",
+                "settings",
+                "search",
+                "date"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
